@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdio.h>
+struct aluno{
+  int nota1;
+     int nota2
+     int nota3
+    float media;
+}aluno;
+int main(){
+  
+  printf("digite a sua nota1\n");
+  scanf("%d",&aluno.nota1);
+  printf("digite a sua nota2\n");
+  scanf("%d",&aluno.nota2);
+  printf("digite a sua nota3\n");
+  scanf("%d",&aluno.nota3);
+  aluno.media=(aluno.nota1+aluno.nota2+aluno.nota3)/3;
+  if(aluno.media>=7){
+     printf("aprovado");
+  }else{
+    printf("reprovado");
+  }
